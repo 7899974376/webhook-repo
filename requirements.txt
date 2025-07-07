@@ -1,0 +1,80 @@
+flask
+flask-cors
+pymongo
+dnspython
+python-dotenv
+
+# #-----------------------------------Installation Commands (Use in Terminal)-----------------
+
+# 1. Install Flask
+#  pip install Flask    #Web framework to create API routes like /webhook and serve HTML.
+
+# 2. Install flask-cors
+#  pip install flask-cors    #Enables cross-origin access (CORS) for your frontend to call backend APIs.
+
+# 3. Install pymongo
+# pip install pymongo     #MongoDB driver for Python to interact with MongoDB database.
+
+
+# 4. Install python-dotenv
+#  pip install python-dotenv #Loads environment variables from .env file.
+
+
+# //-----------------------------------------
+# Final Command (Install All at Once)
+
+
+# pip install Flask flask-cors pymongo python-dotenv
+
+
+# //-----------------------------------------
+# # -------------------- Project Structure Should Look Like:--    -------------
+#  webhook-repo/
+# ├── app.py
+# ├── .env
+# ├── venv/               ← (hidden or ignored)
+# ├── requirements.txt
+# ├── templates/
+# │   └── index.html
+
+
+# #---------------------------------github Commands---------------------------
+# # 1. Go to your project directory
+# cd C:\xyz
+
+# # 2. Initialize Git (if not done)
+# git init
+
+# # 3. Add GitHub repo as remote
+# git remote add origin repo_name
+
+# # 4. Create a new branch
+# git checkout -b update-text     #update-text is a new branch name
+
+# # 5. Add your .txt file (create or update as needed)
+# echo "Hello, GitHub! iam aniket patil" > example1.txt
+
+# # 6. Stage the file
+# git add example1.txt
+
+# # 7. Commit the change
+# git commit -m "Add example1.txt with initial content"
+
+# # 8. Push the branch to GitHub
+# git push origin update-text
+
+
+# # 9. goto user repo 
+
+# Base: main
+# Compare: update-text
+# Add a title and description
+# Click “Create pull request”
+
+
+# #PART 3: Merge the Pull Request (manual step)
+# Go to the Pull Request you just created
+
+# Click "Merge pull request"
+
+# Confirm by clicking "Confirm merge"
